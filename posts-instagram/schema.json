@@ -1,0 +1,19 @@
+{
+  "tipo": "JSONL",
+  "encoding": "utf-8",
+  "compressao": "gzip",
+  "campos": {
+    "doc": {
+      "tipo": "string",
+      "descricao": "Nome do veículo (fonte citável)"
+    },
+    "text": {
+      "tipo": "string",
+      "descricao": "Cabeçalho (veículo·cidade·data) + corpo da legenda"
+    }
+  },
+  "exemplo": {
+    "doc": "CORREIO DO POVO",
+    "text": "CORREIO DO POVO · Porto Alegre/RS · 2026-05-23\nA Polícia Civil de São Paulo encontrou uma máquina de contar dinheiro..."
+  }
+}

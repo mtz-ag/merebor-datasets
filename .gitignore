@@ -1,0 +1,16 @@
+# Datasets grandes (>100MB)
+*.csv.gz
+*.tar.gz
+*.zip
+posts-instagram/*.csv
+
+# Cache
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store

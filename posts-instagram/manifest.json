@@ -1,0 +1,19 @@
+{
+  "name": "Posts de Instagram — Imprensa Brasileira",
+  "version": "2026.06",
+  "total_posts": 56817,
+  "total_veiculos": 840,
+  "estados": ["RS", "SP"],
+  "periodo": "2012-2026",
+  "periodo_principal": "2026",
+  "tamanho_mb": 236,
+  "chunks": 56817,
+  "filtro": {
+    "util_chars_min": 40,
+    "deduplicado": true
+  },
+  "source": "instagram_imprensa_posts.csv (mobiliza.me)",
+  "propriedade": "Proprietário",
+  "atualizacao": "2026-06-13",
+  "licenca": "CC0 para pesquisa interna"
+}

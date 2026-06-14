@@ -1,15 +1,19 @@
 {
   "id": "pt-historia",
-  "nome": "História do Brasil",
-  "versao": "2026.06",
-  "fonte": "Wikipedia PT, Wikisource PT",
-  "docs": 0,
-  "chunks": 0,
-  "embedding_model": "bge-m3",
-  "embedding_dim": 1024,
-  "idioma": "pt",
-  "temas": ["historia", "brasil", "politica", "imperio", "republica"],
-  "atualizacao": "2026-06-13",
-  "licenca": "CC-BY-SA",
-  "status": "planejado"
+  "nome": "Histórias e Literatura Portuguesa",
+  "descricao": "Textos sobre a história do Brasil, literatura clássica portuguesa e linguística portuguesa, coletados de Wikipedia PT e curação.",
+  "versao": "1.0.0",
+  "linguagem": "pt-BR",
+  "status": "alpha",
+  "documentos": 21,
+  "chunks": 176,
+  "tamanho_bytes": 854000,
+  "fontes": [
+    "Wikipedia PT (história, literatura, linguagem)",
+    "Curação (história complementar + literatura adicional)"
+  ],
+  "autores": ["Merebor Factory"],
+  "data_criacao": "2026-06-13",
+  "licenca": "CC BY-SA 3.0",
+  "atualizado_em": "2026-06-13"
 }

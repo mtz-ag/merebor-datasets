@@ -1,0 +1,15 @@
+{
+  "id": "pt-historia",
+  "nome": "História do Brasil",
+  "versao": "2026.06",
+  "fonte": "Wikipedia PT, Wikisource PT",
+  "docs": 0,
+  "chunks": 0,
+  "embedding_model": "bge-m3",
+  "embedding_dim": 1024,
+  "idioma": "pt",
+  "temas": ["historia", "brasil", "politica", "imperio", "republica"],
+  "atualizacao": "2026-06-13",
+  "licenca": "CC-BY-SA",
+  "status": "planejado"
+}

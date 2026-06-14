@@ -1,0 +1,16 @@
+{
+  "id": "pt-noticias",
+  "nome": "Notícias Brasileiras (2024-2026)",
+  "descricao": "Corpus de notícias política e economia de portais jornalísticos brasileiros.",
+  "versao": "0.1.0",
+  "linguagem": "pt-BR",
+  "status": "planejamento",
+  "documentos": 0,
+  "chunks": 0,
+  "tamanho_bytes": 0,
+  "fontes": ["G1", "Folha", "Valor", "El País Brasil"],
+  "autores": ["Merebor Factory"],
+  "data_criacao": "2026-06-13",
+  "licenca": "CC BY-SA 3.0",
+  "atualizado_em": "2026-06-13"
+}

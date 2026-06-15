@@ -17,10 +17,25 @@ posts-instagram/manifest.json
 posts-instagram/README.md
 ```
 
-## legislacao (em planejamento)
-- **Dados Abertos Câmara** — votações, projetos de lei
-- **LexML** — padrão de legislação do Brasil
-- **STF** — jurisprudência (quando APIs forem públicas)
+## pt-legislacao
+**Status:** ✅ Pronto
+**Tamanho:** 230 documentos, 15.498 chunks (~20 MB)
+**Cobertura:** federal geral (160), direito militar (32), direito eleitoral/Eleições 2026 (23), essencial CF/Civil/CDC/CLT (5), licitações (5), RS (5)
+**Tipo:** Legislação consolidada (Planalto + TSE)
+**Acesso:** Domínio público (Lei 9.610/1998, art. 8º)
+**Frequência:** sob demanda (Planalto compilado)
+
+```bash
+datasets/pt-legislacao/raw/<colecao>.jsonl              # 1 norma/linha
+datasets/pt-legislacao/processed/<colecao>.chunks.jsonl # 1 trecho/linha
+datasets/pt-legislacao/manifesto.json
+```
+Coletor: `coleta/coletar_planalto.py`
+
+### legislacao — próximas fontes (planejamento)
+- **LexML** — descoberta automatizada de toda a legislação (ver `PLANO-LEIS` no repo merebor)
+- **Dados Abertos Câmara/Senado** — votações, projetos de lei
+- **STF/STJ** — jurisprudência (quando APIs forem públicas)
 
 ## politica (em planejamento)
 - **Serenata de Amor** — gastos públicos de parlamentares

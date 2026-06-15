@@ -1,16 +1,29 @@
 {
   "id": "pt-legislacao",
-  "nome": "Legislação Federal Brasileira",
-  "descricao": "Consolidação de leis, decretos e resoluções federais em vigor.",
-  "versao": "0.1.0",
+  "nome": "Legislação Brasileira (federal + temáticas)",
+  "descricao": "Leis, códigos, estatutos, decretos e resoluções federais consolidados do Planalto/TSE, organizados em coleções: federal geral, direito militar, direito eleitoral (Eleições 2026), essencial (CF/Civil/CDC/CLT), licitações e legislação do RS. Texto estruturado por artigo com cabeçalho de citação.",
+  "versao": "1.0.0",
   "linguagem": "pt-BR",
-  "status": "planejamento",
-  "documentos": 0,
-  "chunks": 0,
-  "tamanho_bytes": 0,
-  "fontes": ["Planalto", "Senado", "Câmara"],
-  "autores": ["Merebor Factory"],
-  "data_criacao": "2026-06-13",
-  "licenca": "CC BY-SA 3.0",
-  "atualizado_em": "2026-06-13"
+  "status": "pronto",
+  "documentos": 230,
+  "chunks": 15498,
+  "tamanho_bytes": 20330845,
+  "colecoes": {
+    "federal": "160 normas federais (códigos, estatutos, leis ordinárias e LCs)",
+    "militar": "32 normas de direito militar (CPM, CPPM, Estatuto dos Militares, JM, disciplinares)",
+    "eleitoral": "23 itens — leis eleitorais + 14 resoluções TSE das Eleições 2026",
+    "essencial": "5 — CF/88, Código Civil, CDC, CLT",
+    "licitacoes": "5 — Lei 14.133 e regimes correlatos",
+    "rs": "5 — legislação estadual do Rio Grande do Sul"
+  },
+  "fontes": [
+    "Planalto (ccivil_03)",
+    "TSE (resoluções consolidadas 2026)"
+  ],
+  "autores": [
+    "Merebor Factory"
+  ],
+  "data_criacao": "2026-06-14",
+  "licenca": "Domínio público (textos legais — Lei 9.610/1998, art. 8º)",
+  "atualizado_em": "2026-06-14"
 }

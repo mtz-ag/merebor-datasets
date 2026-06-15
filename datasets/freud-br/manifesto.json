@@ -1,0 +1,20 @@
+{
+  "id": "freud-br",
+  "nome": "Freud e Psicanálise (PT-BR)",
+  "descricao": "Conhecimento sobre Sigmund Freud e a psicanalise em portugues: vida, obras (resumos), conceitos centrais (inconsciente, id/ego/superego, complexo de Edipo, pulsao, transferencia, sonho, recalque) e a linhagem (Jung, Lacan, Klein, Winnicott). Camada CONCEITUAL (Wikipedia PT). Os TEXTOS INTEGRAIS de Freud em PT estao todos sob direito autoral (traducoes Imago/Companhia); a unica via legal para a obra completa e a traducao espanhola de Lopez-Ballesteros (dominio publico) ou os originais alemao/ingles DP.",
+  "versao": "1.0.0",
+  "linguagem": "pt-BR",
+  "status": "pronto",
+  "documentos": 44,
+  "chunks": 519,
+  "tamanho_bytes": 675320,
+  "fontes": [
+    "Wikipedia PT (CC BY-SA 3.0)"
+  ],
+  "autores": [
+    "Merebor Factory"
+  ],
+  "data_criacao": "2026-06-14",
+  "licenca": "CC BY-SA 3.0",
+  "atualizado_em": "2026-06-14"
+}

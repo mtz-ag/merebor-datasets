@@ -37,6 +37,19 @@ Coletor: `coleta/coletar_planalto.py`
 - **Dados Abertos Câmara/Senado** — votações, projetos de lei
 - **STF/STJ** — jurisprudência (quando APIs forem públicas)
 
+## freud-br
+**Status:** ✅ Pronto (camada conceitual)
+**Tamanho:** 44 documentos, 519 chunks (~0,7 MB)
+**Cobertura:** Freud, obras, conceitos da psicanálise e linhagem (Jung, Lacan, Klein)
+**Tipo:** Conhecimento sobre Freud (Wikipedia PT)
+**Acesso:** CC BY-SA 3.0
+**Nota:** textos integrais de Freud em PT são protegidos; obra completa legal só via tradução espanhola DP (López-Ballesteros) ou originais DP
+
+```bash
+datasets/freud-br/raw/wikipedia.jsonl
+datasets/freud-br/processed/wikipedia.chunks.jsonl
+```
+
 ## pt-ia
 **Status:** ✅ Pronto
 **Tamanho:** 60 documentos, 1.045 chunks (~1 MB)

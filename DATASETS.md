@@ -37,6 +37,19 @@ Coletor: `coleta/coletar_planalto.py`
 - **Dados Abertos Câmara/Senado** — votações, projetos de lei
 - **STF/STJ** — jurisprudência (quando APIs forem públicas)
 
+## pt-psicologia
+**Status:** ✅ Pronto
+**Tamanho:** 85 documentos, 1.281 chunks (~2 MB)
+**Cobertura:** escolas, autores, conceitos, transtornos, terapias e psicologia aplicada
+**Tipo:** Conhecimento de psicologia (Wikipedia PT)
+**Acesso:** CC BY-SA 3.0 (atribuição exigida)
+
+```bash
+datasets/pt-psicologia/raw/wikipedia.jsonl
+datasets/pt-psicologia/processed/wikipedia.chunks.jsonl
+```
+Coletor: `coleta/coletar_psicologia.py` · Expansão: SciELO/PePSIC, CFP, clássicos em domínio público
+
 ## pt-historia
 **Status:** ✅ Pronto
 **Tamanho:** 123 documentos, 6.217 chunks (~8 MB)

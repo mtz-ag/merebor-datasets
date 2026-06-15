@@ -1,0 +1,20 @@
+{
+  "id": "pt-psicologia",
+  "nome": "Psicologia (PT-BR)",
+  "descricao": "Conhecimento de psicologia em portugues: escolas e abordagens, autores, conceitos, transtornos, terapias e psicologia aplicada. Base inicial da Wikipedia PT. Fontes de expansao (abertas/legitimas): SciELO e PePSIC (periodicos CC), Codigo de Etica do CFP (oficial) e classicos em DOMINIO PUBLICO (Freud, William James, Wundt). NAO inclui livros protegidos por direito autoral.",
+  "versao": "1.0.0",
+  "linguagem": "pt-BR",
+  "status": "pronto",
+  "documentos": 85,
+  "chunks": 1281,
+  "tamanho_bytes": 1765002,
+  "fontes": [
+    "Wikipedia PT (CC BY-SA 3.0)"
+  ],
+  "autores": [
+    "Merebor Factory"
+  ],
+  "data_criacao": "2026-06-14",
+  "licenca": "CC BY-SA 3.0",
+  "atualizado_em": "2026-06-14"
+}

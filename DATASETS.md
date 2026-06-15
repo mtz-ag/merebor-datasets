@@ -38,17 +38,18 @@ Coletor: `coleta/coletar_planalto.py`
 - **STF/STJ** — jurisprudência (quando APIs forem públicas)
 
 ## freud-br
-**Status:** ✅ Pronto (camada conceitual)
-**Tamanho:** 44 documentos, 519 chunks (~0,7 MB)
-**Cobertura:** Freud, obras, conceitos da psicanálise e linhagem (Jung, Lacan, Klein)
-**Tipo:** Conhecimento sobre Freud (Wikipedia PT)
-**Acesso:** CC BY-SA 3.0
-**Nota:** textos integrais de Freud em PT são protegidos; obra completa legal só via tradução espanhola DP (López-Ballesteros) ou originais DP
+**Status:** ✅ Pronto — **obra completa + conceitos**
+**Tamanho:** 61 documentos, 8.907 chunks (~10 MB)
+**Cobertura:** 17 tomos das Obras Completas (López-Ballesteros, **domínio público**, espanhol) + 44 artigos conceituais em PT (Wikipedia)
+**Tipo:** Textos integrais de Freud + conhecimento sobre psicanálise
+**Acesso:** Domínio público (obras) + CC BY-SA 3.0 (Wikipedia)
 
 ```bash
-datasets/freud-br/raw/wikipedia.jsonl
-datasets/freud-br/processed/wikipedia.chunks.jsonl
+datasets/freud-br/raw/obras-completas-es.jsonl       # 17 tomos (espanhol, DP)
+datasets/freud-br/raw/wikipedia.jsonl                # 44 conceitos (PT)
+datasets/freud-br/processed/*.chunks.jsonl
 ```
+Obras: archive.org (Biblioteca Nueva 1922-34, DP) · traduções PT (Imago/Companhia) são protegidas
 
 ## pt-ia
 **Status:** ✅ Pronto

@@ -1,20 +1,28 @@
 {
   "id": "freud-br",
-  "nome": "Freud e Psicanálise (PT-BR)",
-  "descricao": "Conhecimento sobre Sigmund Freud e a psicanalise em portugues: vida, obras (resumos), conceitos centrais (inconsciente, id/ego/superego, complexo de Edipo, pulsao, transferencia, sonho, recalque) e a linhagem (Jung, Lacan, Klein, Winnicott). Camada CONCEITUAL (Wikipedia PT). Os TEXTOS INTEGRAIS de Freud em PT estao todos sob direito autoral (traducoes Imago/Companhia); a unica via legal para a obra completa e a traducao espanhola de Lopez-Ballesteros (dominio publico) ou os originais alemao/ingles DP.",
-  "versao": "1.0.0",
-  "linguagem": "pt-BR",
+  "nome": "Freud — Obras Completas + Psicanálise",
+  "descricao": "Duas camadas: (1) obras-completas-es — a obra (quase) completa de Freud, 17 tomos da traducao espanhola de Lopez-Ballesteros (Biblioteca Nueva 1922-1934), DOMINIO PUBLICO (tradutor falecido 1938), OCR do archive.org; (2) wikipedia — conhecimento conceitual em PT sobre Freud e a psicanalise. Traducoes PT do Freud sao protegidas (Imago/Companhia); a via legal para a obra completa e a traducao espanhola DP.",
+  "versao": "2.0.0",
+  "linguagem": [
+    "es",
+    "pt-BR"
+  ],
   "status": "pronto",
-  "documentos": 44,
-  "chunks": 519,
-  "tamanho_bytes": 675320,
+  "documentos": 61,
+  "chunks": 8907,
+  "tamanho_bytes": 11061213,
+  "colecoes": {
+    "obras-completas-es": "17 tomos das Obras Completas (Lopez-Ballesteros, dominio publico, espanhol) — 8388 chunks",
+    "wikipedia": "44 artigos conceituais em PT (Wikipedia, CC BY-SA) — 519 chunks"
+  },
   "fontes": [
+    "archive.org — Obras Completas Biblioteca Nueva 1922-1934 (dominio publico)",
     "Wikipedia PT (CC BY-SA 3.0)"
   ],
   "autores": [
     "Merebor Factory"
   ],
   "data_criacao": "2026-06-14",
-  "licenca": "CC BY-SA 3.0",
-  "atualizado_em": "2026-06-14"
+  "licenca": "Dominio publico (obras-completas-es) + CC BY-SA 3.0 (wikipedia)",
+  "atualizado_em": "2026-06-15"
 }

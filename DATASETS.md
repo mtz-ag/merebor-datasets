@@ -37,6 +37,19 @@ Coletor: `coleta/coletar_planalto.py`
 - **Dados Abertos Câmara/Senado** — votações, projetos de lei
 - **STF/STJ** — jurisprudência (quando APIs forem públicas)
 
+## pt-ia
+**Status:** ✅ Pronto
+**Tamanho:** 60 documentos, 1.045 chunks (~1 MB)
+**Cobertura:** fundamentos, ML/deep learning, redes neurais, LLMs/PLN, visão, ética, pioneiros, ferramentas
+**Tipo:** Conhecimento de IA (Wikipedia PT)
+**Acesso:** CC BY-SA 3.0 (atribuição exigida)
+
+```bash
+datasets/pt-ia/raw/wikipedia.jsonl
+datasets/pt-ia/processed/wikipedia.chunks.jsonl
+```
+Coletor: `coleta/coletar_ia.py` · Complemento: `pt-ia-governanca` (regulação) · Expansão: arXiv, AI Index
+
 ## pt-psicologia
 **Status:** ✅ Pronto
 **Tamanho:** 85 documentos, 1.281 chunks (~2 MB)

@@ -1,0 +1,20 @@
+{
+  "id": "pt-ia",
+  "nome": "Inteligência Artificial (PT-BR)",
+  "descricao": "Conhecimento de IA em portugues: fundamentos, historia, aprendizado de maquina e profundo, redes neurais e arquiteturas (CNN, RNN, Transformer), LLMs e PLN, visao computacional, tecnicas classicas, etica e vies, pioneiros e ferramentas. Base Wikipedia PT. Expansao aberta: arXiv (papers open-access), Stanford AI Index, docs open-source. NAO inclui livros protegidos por direito autoral.",
+  "versao": "1.0.0",
+  "linguagem": "pt-BR",
+  "status": "pronto",
+  "documentos": 60,
+  "chunks": 1045,
+  "tamanho_bytes": 1356234,
+  "fontes": [
+    "Wikipedia PT (CC BY-SA 3.0)"
+  ],
+  "autores": [
+    "Merebor Factory"
+  ],
+  "data_criacao": "2026-06-14",
+  "licenca": "CC BY-SA 3.0",
+  "atualizado_em": "2026-06-14"
+}

@@ -37,6 +37,30 @@ Coletor: `coleta/coletar_planalto.py`
 - **Dados Abertos Câmara/Senado** — votações, projetos de lei
 - **STF/STJ** — jurisprudência (quando APIs forem públicas)
 
+## pt-historia
+**Status:** ✅ Pronto
+**Tamanho:** 123 documentos, 6.217 chunks (~8 MB)
+**Cobertura:** história do Brasil, literatura clássica, gramática/linguística PT
+**Tipo:** Cultura geral (Wikipedia PT)
+**Acesso:** CC BY-SA 3.0 (atribuição exigida)
+
+```bash
+datasets/pt-historia/raw/historia-brasil.jsonl
+datasets/pt-historia/processed/historia-brasil.chunks.jsonl
+```
+
+## pt-ia-governanca
+**Status:** ✅ Pronto
+**Tamanho:** 3 documentos, 188 chunks (~0,3 MB)
+**Cobertura:** EBIA (MCTI), Marco Legal da IA (PL 2338/2023), Lei de IA de Goiás (LC 205/2025)
+**Tipo:** Política e regulação de IA
+**Acesso:** Documentos oficiais (domínio público)
+
+```bash
+datasets/pt-ia-governanca/raw/ia-governanca.jsonl
+datasets/pt-ia-governanca/processed/ia-governanca.chunks.jsonl
+```
+
 ## politica (em planejamento)
 - **Serenata de Amor** — gastos públicos de parlamentares
 - **Eleições TSE** — dados eleitorais (já em merebor)

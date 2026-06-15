@@ -1,0 +1,22 @@
+{
+  "id": "pt-ia-governanca",
+  "nome": "IA e Governança (Brasil)",
+  "descricao": "Documentos oficiais brasileiros sobre IA: Estrategia Brasileira de IA (EBIA/MCTI), Marco Legal da IA (PL 2338/2023, Senado) e Lei de IA de Goias (LC 205/2025, modelo estadual).",
+  "versao": "1.0.0",
+  "linguagem": "pt-BR",
+  "status": "pronto",
+  "documentos": 3,
+  "chunks": 188,
+  "tamanho_bytes": 270421,
+  "fontes": [
+    "MCTI (EBIA)",
+    "Senado Federal (PL 2338/2023)",
+    "ALEGO (LC 205/2025)"
+  ],
+  "autores": [
+    "Merebor Factory"
+  ],
+  "data_criacao": "2026-06-14",
+  "licenca": "Documentos oficiais (domínio público)",
+  "atualizado_em": "2026-06-14"
+}

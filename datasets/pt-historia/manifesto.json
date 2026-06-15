@@ -1,19 +1,20 @@
 {
   "id": "pt-historia",
-  "nome": "Histórias e Literatura Portuguesa",
-  "descricao": "Textos sobre a história do Brasil, literatura clássica portuguesa e linguística portuguesa, coletados de Wikipedia PT e curação.",
-  "versao": "1.0.0",
+  "nome": "História, Literatura e Linguagem (PT-BR)",
+  "descricao": "Artigos da Wikipedia PT sobre história do Brasil, literatura clássica e gramática/linguística portuguesa.",
+  "versao": "2.0.0",
   "linguagem": "pt-BR",
-  "status": "alpha",
-  "documentos": 21,
-  "chunks": 176,
-  "tamanho_bytes": 854000,
+  "status": "pronto",
+  "documentos": 123,
+  "chunks": 6217,
+  "tamanho_bytes": 8618275,
   "fontes": [
-    "Wikipedia PT (história, literatura, linguagem)",
-    "Curação (história complementar + literatura adicional)"
+    "Wikipedia PT (CC BY-SA 3.0)"
   ],
-  "autores": ["Merebor Factory"],
+  "autores": [
+    "Merebor Factory"
+  ],
   "data_criacao": "2026-06-13",
   "licenca": "CC BY-SA 3.0",
-  "atualizado_em": "2026-06-13"
+  "atualizado_em": "2026-06-14"
 }
